@@ -1,4 +1,4 @@
-function sumar(num1, num2) {
+/*function sumar(num1, num2) {
     let resultadoSuma = num1 + num2;
     document.write(`El resultado de la suma es: ${resultadoSuma}<br>`)
 
@@ -46,4 +46,92 @@ restar(dato1, dato2);
 
 multuplicar(dato1, dato2);
 
-dividir(dato1, dato2);
+dividir(dato1, dato2);*/
+
+
+//CONTADOR DE NUMERO DEL 1 AL 10
+
+/*let numeroIngresado = Number(prompt("Ingrese un Numero:"));
+
+for (let i = 0; i <= numeroIngresado; i++) {
+
+    if (i == 5) {
+        continue;
+    }
+
+    if( i== 110){
+        continue;
+    }
+
+
+
+    document.write(`${i}<br>`);
+
+}*/
+
+// MUESTRA NUMEROS PARES
+
+/*let num= Number(prompt("Ingrese un N°:"))
+
+for(let i=0; i<=num; i+=2){
+    if (num % 2 == 0){
+        document.write(i)
+    }
+}*/
+
+
+
+// PEDIDO DE LOGGIN HASTA 3 ERRORES
+
+/*let userContraseña = 123;
+let nombreDeUsuario = "Francisco";
+let ingresoContraseña = prompt("Ingrese su contraseña");
+
+if (ingresoContraseña == userContraseña) {
+    alert(`Bienvenido ${nombreDeUsuario}`)
+
+}
+
+if (ingresoContraseña != userContraseña) {
+    alert("Contraseña incorrecta, le quedan 2 intentos")
+    ingresoContraseña = prompt("Ingrese su contraseña");
+}
+
+
+if (ingresoContraseña != userContraseña) {
+    alert("contraseña incorrecta, le queda 1 intento")
+    ingresoContraseña = prompt("Ingrese su contraseña");
+}
+
+
+if (ingresoContraseña != userContraseña){
+    alert("Contraseña incorrecta, bloqueado");
+    
+}
+*/
+
+
+
+// PEDIDO DE LOGGIN CON WHILE HASTA 3 INTENTOS
+
+
+
+let contraseñaPedido = prompt("Ingrese contraseña");
+let erroresPermitidos= 2; 
+while (contraseñaPedido != "pancho") {
+
+
+    alert("su contraseña es incorrecta, le quedan " + erroresPermitidos + " errores permitidos");
+    numero = prompt("Ingrese contraseña")
+    erroresPermitidos--
+
+    if(erroresPermitidos == 0)
+    {break;}
+}
+
+if (contraseñaPedido == "pancho") {
+
+    alert("Bienvenido Fran")
+
+}
+
