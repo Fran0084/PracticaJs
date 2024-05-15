@@ -137,7 +137,7 @@
 
 // if (ingresoContraseña != userContraseña){
 //     alert("Contraseña incorrecta, bloqueado");
-    
+
 // }
 
 
@@ -190,19 +190,19 @@
 
 /*let datosFrancisco = {
 
-    nombre: "Francisco",
-    apellido: "vazquez",
-    edad: 39,
-    domicilio: "Puerto de Palos",
-    numCalle: 230,
+    nombre: "Francisco",
+    apellido: "vazquez",
+    edad: 39,
+    domicilio: "Puerto de Palos",
+    numCalle: 230,
 
 }
 
 let datosColo= {
 
-    nombre: "Aymara",
-    apellido: "Latorre",
-    edad: 35,
+    nombre: "Aymara",
+    apellido: "Latorre",
+    edad: 35,
 }
 
 
@@ -221,8 +221,8 @@ document.write("Su nombre es" + datosFrancisco.nombre + "<br>");
 // OBJETOS O FUNCIONES CONSTRUCTORAS
 
 /*function Animales(literal) {
-    this.nombre = literal.nombre;
-    this.raza = literal.raza;
+    this.nombre = literal.nombre;
+    this.raza = literal.raza;
 
 }
 
@@ -236,9 +236,9 @@ document.write(`${animal2.raza}<br>`)
 /// OTRA FORMA DE OBJETO CONSTRUCTOR
 
 /*function Insectos(nombre, especie, tamano) {
-    this.nombre = nombre;
-        this.especie = especie;
-        this.tamano = tamano;
+    this.nombre = nombre;
+        this.especie = especie;
+        this.tamano = tamano;
 
 }
 
@@ -253,17 +253,17 @@ document.write("Muestra N° 1: " + insecto1.);
 // OBJETOS CONTRUCTORES CON CLASS
 
 /*class Frutas {
-    constructor(nombre, color, origen) {
-        this.nombre = nombre;
-        this.color = color;
-        this.origen = origen;
-        this.infoMercaderia = `El nombre de esta fruta es ${this.nombre}, su color es ${this.color} y su pais de origen es ${origen}`;
+    constructor(nombre, color, origen) {
+        this.nombre = nombre;
+        this.color = color;
+        this.origen = origen;
+        this.infoMercaderia = `El nombre de esta fruta es ${this.nombre}, su color es ${this.color} y su pais de origen es ${origen}`;
 
-    }
+    }
 
-    Info() {
-        document.write(this.infoMercaderia + "<br>");
-    }
+    Info() {
+        document.write(this.infoMercaderia + "<br>");
+    }
 }
 
 let manzana = ["dulce", "roja", "redonda"];
@@ -271,7 +271,7 @@ let manzana = ["dulce", "roja", "redonda"];
 
 let fruta1 = new Frutas(prompt("Ingrese una fruta"));
 if (fruta1 == "manzana"){
-    document.write(`Informacion de manzana: ${manzana}`);
+    document.write(`Informacion de manzana: ${manzana}`);
 }
 */
 
@@ -279,37 +279,37 @@ if (fruta1 == "manzana"){
 
 /*
 let persona1 = {
-    nombre: "Franciso",
-    apellido: "Vazquez",
-    edad: 39,
-    altura: "1.67",
-    peso: 62,
+    nombre: "Franciso",
+    apellido: "Vazquez",
+    edad: 39,
+    altura: "1.67",
+    peso: 62,
 
 }
 
 let persona2 = {
-    nombre: "Aymara",
-    apellido: "Latorre",
-    edad: 35,
-    altura: 1.52,
-    peso: 55,
+    nombre: "Aymara",
+    apellido: "Latorre",
+    edad: 35,
+    altura: 1.52,
+    peso: 55,
 }
 
 
 let menu1 = {
-    nombre: "Fideos con crema (Incluye bebida)",
-    precio: 4000,
+    nombre: "Fideos con crema (Incluye bebida)",
+    precio: 4000,
 
 }
 
 let menu2 = {
-    nombre: "Milanesa con papas fritas (Incluye bebida)",
-    precio: 3200,
+    nombre: "Milanesa con papas fritas (Incluye bebida)",
+    precio: 3200,
 
 }
 
 if (persona1.nombre == "Franciso" && menu2.nombre == "Milanesa con papas fritas (Incluye bebida)"){
-    document.write(`Fran va a comer ${menu2.nombre}`);
+    document.write(`Fran va a comer ${menu2.nombre}`);
 
 }
 
@@ -322,7 +322,7 @@ let dato = 7;
 
 for (let i = 1; i <= dato; i++) {
 
-    document.write(i + " ");
+    document.write(i + " ");
 }
 */
 
@@ -330,20 +330,20 @@ for (let i = 1; i <= dato; i++) {
 
 /*for (let i = 1; i <= 3; i++) {
 
-    let ingresoDato = prompt("Ingrese contraseña:");
+    let ingresoDato = prompt("Ingrese contraseña:");
 
-    if (ingresoDato == "fran") {
+    if (ingresoDato == "fran") {
 
-        document.write("Puede ingresar al sitio");
-        break;
+        document.write("Puede ingresar al sitio");
+        break;
 
-    }
+    }
 
-    else if( ingresoDato != "fran" && i == 3){
-        document.write(`La contrasena ingresada es incorrecta. Le quedan ${i--} intentos disponibles`)
-       break;
+    else if( ingresoDato != "fran" && i == 3){
+        document.write(`La contrasena ingresada es incorrecta. Le quedan ${i--} intentos disponibles`)
+       break;
 
-    }
+    }
 
 }
 
@@ -354,9 +354,9 @@ for (let i = 1; i <= dato; i++) {
 /*let i= 1;
 
 while(i <= 10){
-    document.write(`El valor del bucle es de ${i}<br>`)
+    document.write(`El valor del bucle es de ${i}<br>`)
 
-    i+=2;
+    i+=2;
 }
 */
 
@@ -366,15 +366,15 @@ while(i <= 10){
 
 while (contraseña != "fran") {
 
-    
-    alert("La contraseña ingresada es incorrecta");
+    
+    alert("La contraseña ingresada es incorrecta");
 
-    contraseña = prompt("Por favor, vuelva a ingrar una contraseña");
+    contraseña = prompt("Por favor, vuelva a ingrar una contraseña");
 
 }
 
 if(contraseña == "fran"){
-    alert("Hola Fran");
+    alert("Hola Fran");
 }
 */
 
@@ -384,12 +384,12 @@ if(contraseña == "fran"){
 
 while (ingresoDato < 1 || ingresoDato > 5) {
 
-    if(ingresoDato == 0 ){
-        alert("Por favor teclee un N° entre 1 y 5. Su numero ingresado fue " + ingresoDato);
-    
-    }
+    if(ingresoDato == 0 ){
+        alert("Por favor teclee un N° entre 1 y 5. Su numero ingresado fue " + ingresoDato);
+    
+    }
 
-    ingresoDato = prompt("Vuelva a ingresar un N°")
+    ingresoDato = prompt("Vuelva a ingresar un N°")
 }    
 
 */
@@ -401,14 +401,14 @@ let contador = parseInt(1);
 
 
 do {
-   document.write(`el valor del N° en la vuelta N° ${contador} del bucle es ${numero} <br>
-   `)
+   document.write(`el valor del N° en la vuelta N° ${contador} del bucle es ${numero} <br>
+   `)
 numero += 5;
 contador++
 
 if (numero ===300){
-    continue;
-    }
+    continue;
+    }
 
 }while (numero <= 500);
 
@@ -417,16 +417,16 @@ if (numero ===300){
 /*let contraseña = prompt("Ingrese un contraseña");
 while (contraseña !== "fran") {
 
-    for (let i = 1; i <= 3; i++) {
-        contraseña = prompt("Pass incorrecto, vuelva a intentarlo, intento N°" + i);
+    for (let i = 1; i <= 3; i++) {
+        contraseña = prompt("Pass incorrecto, vuelva a intentarlo, intento N°" + i);
 
 
 
-        if (i === 3) {
-            alert("Alcanzo el maximo de errores, intente mas tarde");
-        }
+        if (i === 3) {
+            alert("Alcanzo el maximo de errores, intente mas tarde");
+        }
 
-    }
+    }
 
 
 
@@ -435,11 +435,11 @@ while (contraseña !== "fran") {
 
 /*function dividir(num1, num2) {
 
-    let resultadoDivision = num1 / num2;
+    let resultadoDivision = num1 / num2;
 
-    document.write(`El resultado de la division es: ${resultadoDivision}<br>`)
+    document.write(`El resultado de la division es: ${resultadoDivision}<br>`)
 
-    return resultadoDivision
+    return resultadoDivision
 
 }
 
@@ -451,14 +451,14 @@ while (contraseña !== "fran") {
 // LISTADO DE ALUMNOS CON OBJETOS CLASS
 
 /*class Alumnos {
-    constructor(nombre, materia, nota) {
-        this.nombre = nombre;
-        this.materia = materia;
-        this.nota = nota;
-    }
+    constructor(nombre, materia, nota) {
+        this.nombre = nombre;
+        this.materia = materia;
+        this.nota = nota;
+    }
 
 info (){
-    document.write(`${this.nombre} se saco ${this.nota} en ${this.materia} <br>`)
+    document.write(`${this.nombre} se saco ${this.nota} en ${this.materia} <br>`)
 }
 
 }
@@ -501,29 +501,29 @@ document.write(`El resultado de la multiplicacion es: ${mlutiplicar(5,5)}`)
 /*let estacion = prompt("Escriba una estacion del año en minuscula:");
 
 switch (estacion) {
-    case "invierno":
-        alert("Hace frio");
-        break;
+    case "invierno":
+        alert("Hace frio");
+        break;
 
-    case "verano":
-        alert("Hace calor");
+    case "verano":
+        alert("Hace calor");
 estacion= prompt("volve a ingresar la estacion"); 
 
 break;
 
 
-    case "otoño":
-        alert("mas bien esta fresco");
-        break;
+    case "otoño":
+        alert("mas bien esta fresco");
+        break;
 
-    case "primavera":
-        alert("Hace mas bien calor");
-        break;
+    case "primavera":
+        alert("Hace mas bien calor");
+        break;
 
 default:
-    alert("No ha escrito una estacion del año "); 
+    alert("No ha escrito una estacion del año "); 
 
-    break;
+    break;
 }
 
 */
@@ -536,7 +536,7 @@ default:
 function esPar(a) {
 
 
-    return a % 2 === 0;
+    return a % 2 === 0;
 
 }
 
@@ -544,7 +544,7 @@ let pares = numeros.filter(esPar);
 document.write(pares + "<br>");
 
 function impar(b) {
-    return b % 2 !== 0;
+    return b % 2 !== 0;
 
 }
 
@@ -682,21 +682,309 @@ document.write(impares);
 // FUNCION DE ORDEN SUPERIOR
 
 
-function calcularIVa(numero) {
+// function calcularIVa(numero) {
 
-    let resultadoIva = numero * 1.21;
-    return resultadoIva;
-
-
-}
+//     let resultadoIva = numero * 1.21;
+//     return resultadoIva;
 
 
-
-let productos = ["jugo", "agua", "soda"]
-let precios = [25, 40, 15];
+// }
 
 
-let precioFinalAgua = `El ${productos[1]} tiene un precio final de ${calcularIVa(precios[2])}`
 
-document.write(precioFinalAgua);
+// let productos = ["jugo", "agua", "soda"]
+// let precios = [25, 40, 15];
+
+
+// let precioFinalAgua = `El ${productos[1]} tiene un precio final de ${calcularIVa(precios[2])}`
+
+// document.write(precioFinalAgua);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let cursos = [
+//     { nombre: "web", precio: 22000},
+//     { nombre: "React Js", precio: 15000},
+//     { nombre: "Javascript", precio: 5000}
+// ]
+
+// // EJEMPLOS CON SOME 
+
+// // let resultado = cursos.some ((el) => el.nombre == "web");
+
+// // console.log(resultado + "<br>");
+
+
+// // let resultado2= cursos.some ((el) => el.nombre === "sj");
+
+// // console.log(resultado2);
+
+// // EJEMPLOS CON MAP
+
+// let resultado = cursos.map ((el) => el.nombre); 
+
+// console.log(resultado); 
+
+// let resultado2= cursos.map ((el) => el.precio); 
+
+// console.log(resultado2)
+
+
+
+// // EJEMPLO CON SORT AGREGANDO UNA VARIABLE. 
+// // SI NO SE HACE CON UNA VARIABLE HAY QUE TENER CUIDADO PORQUE EL METODO SORT DESTRUYE EL ARRAY, YA QUE LO DEVUELVE CON LA MODIFICACION
+
+// let numeros = [1, 2, 3, 4, 5, 6];
+
+// let resultado = numeros.sort((a, b) => b - a);
+
+// console.log(resultado)
+
+
+
+// let productos = [
+//     { nombre: "Mesa", precio: 2500 },
+//     { nombre: "silla", precio: 5500 },
+//     { nombre: "cafetera Atma", precio: 15000 }
+// ]
+
+
+// // let resultado = productos.map((elemento) => elemento.nombre);
+// // let resultado2 = productos.map((elemento) => elemento.precio);
+
+
+// // console.log(resultado)
+// // console.log(resultado2)
+
+
+// let actualizacionDePrecioPorProducto = productos.map((elemento) => {
+//     return {
+// nombre: "Hola " + elemento.nombre,
+//         precio: elemento.precio * 5,
+
+//     }
+// }
+// )
+
+// console.log(actualizacionDePrecioPorProducto)
+
+
+
+// OBJETO MATH. 
+
+
+
+
+
+// console.log (Math.sqrt(9)); 
+
+// let objetos = 12;
+
+// console.log(Math.sqrt(objetos))
+
+
+
+// MATH.RANDOM
+
+// console.log(Math.random());
+
+// console.log(Math.random());
+
+// console.log(Math.random());
+
+
+// EJEMPLO PARA GENERAR UN CODIGO DE DESCUENTO CON LA MATH.RANDOM
+
+// let generarCodigoDescuento = () => {
+//   let codigo = Math.floor(Math.random() *10000);
+
+//   return codigo;
+// }
+
+// let codigoDescuento = generarCodigoDescuento();
+
+// document.write(`Su codigo de descuento es: DESC${codigoDescuento}`)
+
+
+// console.log(generadorNumero());
+// console.log(generadorNumero());
+// console.log(generadorNumero());
+// console.log(generadorNumero());
+
+
+// function calcularCompra(cantidadDeProductos, precio, impuestos) {
+
+//     let subTotal = 2.5 * 4;
+//     let totalImpuestos = subTotal * 0.0811121321321;
+//     let precioTotal = totalImpuestos;
+
+//     precioTotal = Math.round(precioTotal *100)/100
+
+//     return precioTotal;
+// }
+
+// console.log(calcularCompra())
+
+
+
+
+// DOM - CAPTURAR ELEMENTO BY ID
+
+
+// let div = document.getElementById("app");
+// let parrafo = document.getElementById("parrafo1");
+
+// console.log(div.innerHTML);
+// console.log(parrafo.innerHTML);
+
+
+
+// DOM - CAPTURAR ELEMENTO BYCLASSNAME
+
+// let paises = document.getElementsByClassName("paises");
+
+// // console.log(paises[1].innerHTML);
+
+// for (let i of paises){
+//     console.log(i.innerHTML)
+
+// }
+
+// INNER TEXT EJEMPLO DE MODIFICACION DE TEXTO EN JS
+
+// let div = document.getElementById("comentario");
+
+// console.log(div.innerText);
+
+// div.innerText = "Hola que tal"
+
+// console.log(div.innerText);
+
+// div.innerText = "Cambiamos el saludo";
+
+// console.log(div.innerText);
+
+
+// console.log(div.innerHTML);
+
+// EJEMPLO AGREGAR ETIQUETAS DE HTML DESDE EL JS CON innetHTML
+
+// let contenedor = document.getElementById("divi");
+
+// contenedor.innerHTML = "<h1>Agregamos un H1 ACA !!!</h1>"
+
+
+// MENSAJE DE BIENVENIDA CON INNER.TEXT
+
+// let mensajeDeBienvenida = document.getElementById("mensaje");
+
+// function mensajito() {
+//     let horaActual = new Date().getHours();
+// console.log(horaActual)
+
+//     let mensaje;
+
+//     if (horaActual < 12) {
+//         mensaje = "Hola, esto es antes del mediodia"
+//     }
+//     else if (horaActual < 18) {
+//         mensaje = "Hola, estas en la tarde, queres un coffee ?"
+//     }
+//     else {
+//         mensaje = "Hola, ya es de noche";
+
+//     }
+
+//     mensajeDeBienvenida.innerText = mensaje;
+// }
+
+
+// mensajito();
+
+
+
+// CREACION DE ELEMENTOS EN JS 
+
+// let parrafo = document.createElement("p");
+// parrafo.innerHTML = "<h2>Elija su bebida</h2>";
+
+// document.body.append(parrafo);
+
+
+
+// EVENTOS 
+
+// let botonMenos = document.querySelector("#botonMenos-eventlistener");
+
+// function boton(){
+//     botonMenos.style.cssText =
+//     "background-color: blue;";
+
+//     alert ("Hola");
+// }
+
+// botonMenos.addEventListener("click", boton);
+
+// let botonMas = document.querySelector("#botonMas-eventlistener");
+
+// function boton2(){
+//     botonMas.style.cssText =
+//     "background-color: red;";
+
+//     alert ("Gracias por elegirnos");
+// }
+
+// botonMas.addEventListener("click", boton2);
+
+
+
+
+// SET Y GET ITEMS CON STORAGE
+
+// let nombreDeUsuario = "francisco";
+// let contraseña = "vazquez";
+
+
+// localStorage.setItem("SaludoCliente", `Buenas tardes ${nombreDeUsuario}`);
+
+
+// let mensajeDeSaludo = localStorage.getItem("SaludoCliente");
+
+
+
+// if (nombreDeUsuario == "francisco" && contraseña == "vazquez"){
+//     alert(mensajeDeSaludo);
+// }
+
+// else {
+//     alert("nombre de usuario incorrecto")
+// };
+
+
+
+
+// JSON STRINGIFY
+
+let bebida1 = { id: 1, producto: "Coca Cola"};
+let enJson = JSON.stringify(bebida1);
+
+// console.log(enJson);
+// console.log(typeof bebida1);
+// console.log(typeof enJson);
+
+localStorage.setItem("bebida1", enJson);
+
 
